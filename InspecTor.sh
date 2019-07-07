@@ -97,7 +97,7 @@ https://github.com/reverse-shell/routersploit.git
 clear
 fi
 
-if [ $bro = 0 ] || [ $bro = 00 ]
+if [ $vro = 0 ] || [ $vro = 00 ]
 then
 echo "\033[33;1mWe Are Anonymous"
 sleep 1
