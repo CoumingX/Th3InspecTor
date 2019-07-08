@@ -48,7 +48,6 @@ echo -b $green"[#]> TOOLS INSTALLER BY CoumingX " |lolcat
 echo -b $green"[#]> Thanks For Using My Tools" |lolcat
 sleep 1
 echo -b $green"[#]> CoumingX On Your System" |lolcat
-
 echo -b $green"[#]> See you Again Ngentod :)..." |lolcat
 figlet Th3InspecTor | lolcat
 sleep 1
@@ -57,7 +56,7 @@ exit
 
 
 lagi=1
-while [ $lagi -lt 6 ];
+while [ $lagi -lt 5 ];
 do
 
 echo ""
