@@ -1,115 +1,150 @@
-#!/system/xbin/bash
-clear
-blue='\033[34;1m'
-green='\033[32;1m'                                        
-purple='\033[35;1m'
-cyan='\033[36;1m'
-red='\033[31;1m'
-white='\033[37;1m'                                           
-yellow='\033[33;1m'
-sleep 1
-toilet -f slant -F gay "Tools-Th3InspecTor" | lolcat
-echo "\033[35;1m"
-cal
-date
-echo ""      
-echo "\033[32;1mAuthor : CoumingX" 
-echo "\033[35;1mTeam : Anonymous"
-echo "\033[33;1mFacebook : Oh
-echo "\033[34;1m[============================[>"
-sleep 1
-echo ""
-echo "\033[32;1mPilih Sendiri Ya Ngentod !:)?:"
-echo "\033[36;1m"
-echo "[===============================================]>"
-echo "1.> Virus VbugMaker Creator"
-echo "[===============================================]>"
-echo "2.> Katoolin"
-echo "[===============================================]>"
-echo "3.> MBF Buat Hack Facebook"
-echo "[===============================================]>"
-echo "4. Install Santet-Online"
-echo "[===============================================]>"
-echo "5. Install RouterSploit"
-echo "[===============================================]>"
-echo -e "╭─Coumingx[PILIH NOMORNYA NGENTOD !]" | lolcat
-read -p "╰─#" Pilih NGENTOD!;
+#!/bin/bash
+#version 1.0
 
-if [ $vro = 1 ] || [ $vro = 1 ]
-then
-clear
-toilet "CoumingX"
-cd module
-python2 anvima.py
-fi
+#MAU NGAPAIN TOT?:V
+#RECODE?REEDIT?RECOPYRIGHT?COPAS?
+#MALU TOLOL!!!
+#KAGA BERMORAL!
 
-if [ $vro = 2 ] || [ $vro = 2 ]
-then
-clear
-cowsay -f sheep.cow "CoumingX" | lolcat
-figlet "Tools-Th3InspecTor" | lolcat
-sleep 1
-cd
-cd module
-python2 katoolin.py
-fi
 
-if [ $vro = 3 ] || [ $vro = 3 ]
-then
-clear
-cowsay -f kiss.cow "CoumingX" | lolcat
-figlet "Tools-Th3InspecTor" | lolcat
-echo "\033[33;1muntuk tutorial kunjungi:" "\033[36;1m https://youtu.be/FsI4pCapfLY"
-sleep 3
-cd module
-python2 mbf.py
-fi
+#01/08/18
 
-if [ $vro = 4 ] || [ $vro = 4 ]
-then
 clear
-cowsay -f kiss.cow "CoumingX" | lolcat
-figlet "Tools-Th3InspecTor" | lolcat
-sleep 1
-apt update && apt upgrade
-apt install php
-apt install git
-apt install python2
-git clone https://github.com/Gameye98/santet-online
-mv santet-online $HOME
-cd $HOME/santet-online
-pip2 install -r requirements.txt
-clear
-chmod +x santet.py
-python2 santet.py 
-fi
+# Variables
+b='\033[1m'
+u='\033[4m'
+bl='\E[30m'
+r='\E[31m'
+g='\E[32m'
+bu='\E[34m'
+m='\E[35m'
+c='\E[36m'
+w='\E[37m'
+endc='\E[0m'
+enda='\033[0m'
+blue='\e[1;34m'
+cyan='\e[1;36m'
+red='\e[1;31m'
 
-if [ $vro = 4 ] || [ $vro = 4 ]
-then
-clear
-cowsay -f kiss.cow "CoumingX" | lolcat
-figlet "Tools-Th3InspecTor" | lolcat
-sleep 1
-apt update && apt upgrade
-apt install git
-apt install python2
-https://github.com/reverse-shell/routersploit.git
-clear
-fi
+figlet Th3InspecTor  | lolcat
 
-if [ $vro = 0 ] || [ $vro = 00 ]
-then
-echo "\033[33;1mWe Are Anonymous"
+echo -b "_____________________________________________________________" | lolcat
+echo -b "TYPE      : TOOLS Th3InsprcTor $green " |lolcat
+echo -b "VERSION   : V.1 " | lolcat
+echo -b "AUTHOR    : CoumingX $green " | lolcat
+echo -b "ASSOCIATE : Anonymous $green " |lolcat
+echo -b "NOTES     : JELAJAHI SETIAP TOOLS DENGAN TELITI DAN BIJAK" | lolcat
+echo -b "_____________________________________________________________" | lolcat
+
 sleep 1
-echo "We Are Legion"
+
+###################################################
+# CTRL + C
+###################################################
+trap ctrl_c INT
+ctrl_c() {
+clear
+echo -b $green"[#]> TOOLS INSTALLER BY CoumingX " |lolcat
+echo -b $green"[#]> Thanks For Using My Tools" |lolcat
 sleep 1
-echo "We Do Not ForGive"
-sleep 1
-echo "We Do Not ForGet"
-sleep 1
-echo "The Indonesian Anonymous Family"
-sleep 1
-echo "Expect Us"
+echo -b $green"[#]> CoumingX On Your System" |lolcat
+
+echo -b $green"[#]> See you Again Ngentod :)..." |lolcat
+figlet Th3InspecTor | lolcat
 sleep 1
 exit
-fi
+}
+
+
+lagi=1
+while [ $lagi -lt 6 ];
+do
+
+echo ""
+echo ""
+
+echo -e "######################################" | lolcat
+echo -e "#SILAHKAN TUNGGU YA NGRNTOD! #" | lolcat
+echo -e "######################################" | lolcat
+
+echo ""
+echo -e "============================" | lolcat
+echo -e $b "1. Install Drak-Fb${enda}";
+echo -e "============================" | lolcat
+echo -e $c "2. Install Hack Cctv${enda}";
+echo -e "============================" | lolcat
+echo -e $w "3. Install Nmap${enda}";
+echo -e "============================" | lolcat
+echo -e $g "4. Install Th3inspector${enda}";
+echo -e "============================" | lolcat
+echo -e $b "5. Install Hammer${enda}";
+echo -e "============================" | lolcat
+echo -e $b "00. Exit${enda}";
+
+
+#Install Dark-Fb
+
+1) git clone https://github.com/rezadkim/dark-fb
+echo -e "${y} Installer Dark-Fb..."
+echo -e "${y} cd dark-fb"
+echo -e "${y} pip2 install requests
+echo -e "${y} pip2 install mechanize
+echo -e "${y} python2 dark.py"
+
+echo
+;;
+
+#Install Ipcs
+
+2) git clone https://github.com/kancotdiq/ipcs
+echo -e "${y} Installer Ipcs..."
+echo -e "${y} cd ipcs"
+echo -e "${y} pip2 install requests"
+echo -e "${y} python2 scan.py
+
+echo
+
+;;
+
+# Nmap
+
+case $pil in
+3) pkg install nmap
+echo -e "${y} {1} Masukkan Web${endc}:"
+read web
+nmap $web
+echo
+
+;;
+
+#Install Th3inspector
+
+4) git clone https://github.com/Moham3dRiahi/Th3inspector.git
+echo -e "${y} SUDAH TERINSTALL YA NGENTOD.."
+
+
+;;
+
+
+
+#Install Hammer
+
+5) git clone https://github.com/cyweb/hammer
+echo -e "${y} SUDAH TERINSTALL YA NGENTOD.."
+
+;;
+
+
+00) echo "USURNAME: CoumingX" | lolcat
+echo "CoumingX ONLY SYSTEM" | lolcat
+echo "ANONYMOUS " | lolcat
+echo "YANG BUAT TOOLS MASIH NOB" | lolcat
+figlet Th3InspecTor | lolcat
+exit
+;;
+
+*) echo "Sorry, Your choices it's not already [T4T]"
+esac
+done
+done
+
