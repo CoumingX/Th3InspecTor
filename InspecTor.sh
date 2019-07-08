@@ -38,12 +38,7 @@ echo -b "_____________________________________________________________" | lolcat
 
 sleep 1
 
-###################################################
-# CTRL + C
-###################################################
-trap ctrl_c INT
-ctrl_c() {
-clear
+
 echo -b $green"[#]> TOOLS INSTALLER BY CoumingX " |lolcat
 echo -b $green"[#]> Thanks For Using My Tools" |lolcat
 sleep 1
