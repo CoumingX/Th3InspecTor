@@ -60,7 +60,6 @@ while [ $lagi -lt 5 ];
 do
 
 echo ""
-echo ""
 
 echo -e "######################################" | lolcat
 echo -e "#SILAHKAN TUNGGU YA NGRNTOD! #" | lolcat
@@ -80,6 +79,7 @@ echo -e $b "5. Install Hammer${enda}";
 echo -e "============================" | lolcat
 echo -e $b "00. Exit${enda}";
 
+echo ""
 
 #Install Dark-Fb
 
