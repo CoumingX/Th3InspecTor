@@ -29,7 +29,7 @@ def main():
         print("    /___________________[]_______\")
         print("  /     []    []                  \ ")
        print("  /              []    []           \ ")
-        print(" \      []    []                   /")
+        print(" \      []    []         []        /")
        print("   \________________[]____________/ ")
     print("{}  '--------------'----------{}------------------.  ").format(r,w)
     print("{}   {}Created  : {}CoumingX {}      {}INDO{}N{}{}ESIA          ").format(r,w,r,w,r,ir,reset,w)
